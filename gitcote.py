@@ -6,9 +6,9 @@
 # 솔루션 : result 값에 '666'이 포함하는지를 판단하여 
 #'666'이 포함되어 있을 경우 cnt 변수를 1씩 증가
 
-print("this is test code")
+#print("this is test code")
 
-print("this is test code number 2")
+#print("this is test code number 2")
 
 '''
 n = int(input())
@@ -386,7 +386,138 @@ else: # 투표가 0일 때
 
 
 
-print(1)
+
+
+
+# 백준 10773 제로
+
+
+'''
+
+
+k = int(input())
+li = []
+stack = []
+
+for i in range(k):
+        li.append(int(input()))
+
+
+for i in li:
+        if i != 0:
+                stack.append(i)
+        
+        if i == 0:
+                stack.pop()
+        
+print(sum(stack))
+
+
+
+
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
