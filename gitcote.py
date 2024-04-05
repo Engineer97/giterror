@@ -8,6 +8,8 @@
 
 print("this is test code")
 
+print("this is test code number 2")
+
 '''
 n = int(input())
 cnt = 0
