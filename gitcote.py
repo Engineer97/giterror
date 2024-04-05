@@ -6,6 +6,8 @@
 # 솔루션 : result 값에 '666'이 포함하는지를 판단하여 
 #'666'이 포함되어 있을 경우 cnt 변수를 1씩 증가
 
+print("this is test code")
+
 '''
 n = int(input())
 cnt = 0
